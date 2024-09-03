@@ -1,1 +1,4 @@
-
+  celsius_text = input("Enter the temperature in celsius to convert: ")
+celsius = float(celsius_text)
+fahr = celsius*9/5 + 32
+print("The temperature in F is", fahr)
